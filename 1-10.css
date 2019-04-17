@@ -1,0 +1,395 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F
+}
+.header-box{
+	width: 1024px;
+	margin: 0 auto;
+}
+.header-logo{
+	height: 70px;
+}
+.header-items{
+	display: inline-block;
+	line-height: 70px;
+	float: right;
+
+}
+.header-item{
+	list-style: none;
+	float: right;
+	text-align: right;
+	font-size: 16px;
+	color: #FAFAFA;
+	padding: 0 30px;
+}
+.main-visual{
+	background-image: url("img 2/mv.png");
+	background-size: cover;
+	background-position: bottom;
+	width: 100%;
+	height: 650px;
+}
+.main-visual-name{
+	font-size: 64px;
+	color: #FAFAFA;
+	padding-top: 200px;
+	text-align: center;
+}
+.main-visual-text{
+	font-size: 20px;
+	color: #FAFAFA;
+	padding-top: 10px;
+	text-align: center;
+}
+.portfolio{
+	width: 100%;
+	padding-bottom: 90px;
+	background-color: #ECEFF1;
+}
+.p-container{
+	width: 920px;
+	margin: 0 auto;
+}
+.subtitle{
+	font-size: 32px;
+	color: #000000;
+	padding: 90px 0 0 0;
+	text-align: center;
+	position: relative;
+}
+.subtitle:after{
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -8px;
+	display: inline-block;
+	width: 70px;
+	height: 3px;
+	-moz-transform: translateX(-50%);
+  	-webkit-transform: translateX(-50%);
+ 	-ms-transform: translateX(-50%);
+  	transform: translateX(-50%);
+	background-color: #EC715F;
+}
+.text{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	margin: 41px 0 30px 0;
+}
+.br-sp{
+	display: none;
+}
+.p-box1{
+	width: 300px;
+	height: 250px;
+	background-image: url("img 2/sketch.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.p-box2{
+	width: 300px;
+	height: 250px;
+	background-image: url("img 2/websuku.png");
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 10px 10px 10px;
+}
+.p-box3{
+	width: 300px;
+	height: 250px;
+	background-image: url("img 2/write.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.p-box4{
+	width: 300px;
+	height: 250px;
+	background-image: url("img 2/webcamp.png");
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.p-box5{
+	width: 300px;
+	height: 250px;
+	background-image: url("img 2/talk.jpg");
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.p-box6{
+	width: 300px;
+	height: 250px;
+	background-image: url("img 2/webcamp-mother.png");
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin: 0 0 0 10px;
+}
+.feature{
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.f-text{
+	font-size: 16px;
+	color: #000000;
+	margin: 41px 0 30px 0;
+	text-align: center;
+}
+.f-item1{
+	width: 320px;
+	height: auto;
+	margin-right: 10px;
+	float: left;
+}
+.f-item2{
+	width: 320px;
+	height: auto;
+	margin-right: 10px;
+	float: left;
+}
+.f-item3{
+	width: 320px;
+	height: auto;
+	float: left;
+}
+.f-item-title{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	margin: 10px 0;
+}
+.f-item-text{
+	font-size: 16px;
+	color: #000000;
+}
+.fas{
+	font-size: 60px;
+	position: relative;
+	left: 120px;
+}
+.profile{
+	width: 100%;
+	background-color: #ECEFF1;
+	padding-bottom: 90px;
+}
+.profile-container{
+	width: 1024px;
+	margin: 0 auto;
+}
+.profile-image-container{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.profile-image{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+}
+.mycontainer{
+	width: 50%;
+	float: left;
+}
+.myname{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.myname-text{
+	font-size: 16px;
+	color: #000000;
+}
+.myskills{
+	font-size: 20px;
+	margin: 20px 0 5px 0;
+}
+.skills{
+	font-size: 16px;
+	color: #000000;
+}
+.contact{
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.c-container{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+.left-container{
+	width: 130px;
+	margin: 0 auto;
+}
+.mail, .sns{
+	font-size: 20px;
+	margin-bottom: : 5px;
+}
+.tell{
+	font-size: 20px;
+	margin: 20px 0 5px 0;
+}
+.sns-container{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+.right-container{
+	width: 210px;
+	margin: 0 auto;
+}
+.fab{
+	font-size: 50px;
+	margin-right: 20px;
+	float: left;
+}
+.fab:nth-child(last){
+	margin-right: 0;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+.footer-text{
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+	line-height: 60px;
+}
+@media screen and (max-width: 767px){
+	header{
+		height: 50px;
+	}
+	.header-box{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.header-logo{
+		height: 50px;
+	}
+	.header-items{
+		display: none;
+	}
+	.nav-menu{
+		position: relative;
+		height: 40px;
+		width: 40px;
+		display: inline-block;
+		box-sizing: border-box;
+		border: 1px solid #fff;
+		float: right;
+		margin: 5px 0;
+	}
+	.nav-menu div{
+		position: absolute;
+		left: 5px;
+		height: 3px;
+		width: 28px;
+		background-color: #fff;
+		display: inline-block;
+		box-sizing: border-box;
+	}
+	.nav-menu div:nth-child(1){
+		top: 10px;
+	}
+	.nav-menu div:nth-child(2){
+		top: 18px;
+	}
+	.nav-menu div:nth-child(3){
+		top: 26px;
+	}
+	.main-visual{
+		background-image: url("img 2/code.png");
+		height: 650px;
+	}
+	.main-visual-container{
+		width: 90%;
+		height: 650px;
+		margin: 0 auto;
+	}
+	.main-visual-name{
+		font-size: 40px;
+	}
+	.main-visual-text{
+		font-size: 18px;
+	}
+	.p-container{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.br-pc{
+		display: none;
+	}
+	.br-sp{
+		display: block;
+	}
+	.p-box1, .p-box3, .p-box5{
+		display: none;
+	}
+	.p-box2, .p-box4, .p-box6{
+		float: none;
+		margin: 0 auto;
+	}
+	.p-box2, .p-box4{
+		margin-bottom: 10px;
+	}
+	.feature{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.f-item1, .f-item2{
+		float: none;
+		margin: 0 auto 10px;
+	}
+	.f-item3{
+		float: none;
+		margin: 0 auto;
+	}
+	.profile-container{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.profile-image-container{
+		float: none;
+		margin: 0 auto 20px;
+	}
+	.mycontainer{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.c-container{
+		float: none;
+		margin-bottom: 20px;
+	}
+	.sns-container{
+		float: none;
+	}
+	.right-container{
+		width: 180px;
+	}
+}
