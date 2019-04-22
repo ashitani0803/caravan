@@ -390,6 +390,9 @@ footer{
 		float: none;
 	}
 	.right-container{
-		width: 180px;
+		width: 205px;
+	}
+	.fa-facebook-f{
+		width: 50px;
 	}
 }
